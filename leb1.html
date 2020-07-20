@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(236, 154, 154);
+  padding: 5px;
+  text-align: center;
+  font-size: 35px;
+  color:black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 580px; /* only for demonstration, should be removed */
+  background: rgb(197, 189, 189);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #c59494;
+  height: 580px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #db8b81;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2></h2>
+<p></p>
+<p></p>
+
+<header>
+  <h4>☞ประวัติส่วนตัว☜</h4>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <img src="C:\Users\COM-SSKRU\Downloads\81865869_2553168534957828_6288873350265569280_n.jpg" alt="" width="300" height="190">
+      <li><a href="#">ประวัติส่วนตัว</a></li>
+      <li><a href="#">เกรด</a></li>
+      <li><a href="#">ผลงาน</a></li>
+    </ul>
+  </nav>
+  <article>
+    <p>ชื่อนางสาวเกษนรินทร์ โพธิ์ขาว</p>
+    <p>รหัสนักศึกษา ︰ 6210014115</p>
+    <p>ชื่อเล่น︰ ชมพู่   อายุ 19 ปี</p>
+    <p>เกิดวันที่ 10 มกราคม 2544</p>
+    <p>📞︰0647390539</p>
+    <p>FB︰เกษนรินทร์ ฯ.</p>
+    <p>☛ประวัติการศึกษา☚<p>
+    <p>มหาวิทยาลัยราชภัฏศรีสะเกษ</p>
+    <p>คณะ ︰ ศิลปศาสตร์และวิทยาศาสตร์</p>
+    <p>สาขา︰วิศวกรรมซอฟต์แวร์</p>
+    <p>☛ประวัติครอบครัว☚</p>
+    <p>ที่อยู่︰ 164 หมู่ 2 บ้านโพนเขวา ต.โพนเขวา อ.เมือง จ.ศรีสะเกษ</p>
+    <p>ชื่อบิดา︰นายสมชัย สิมอุด</p>
+    <p>ชื่อมารดา︰นางสาวศุกร์ โพธิ์ขาว</p>
+
+    
+  </article>
+  
+</section>
+
+<footer>
+  <h3>ขอบคุณค่ะ<h3>
+ </footer>
+
+</body>
+</html>
